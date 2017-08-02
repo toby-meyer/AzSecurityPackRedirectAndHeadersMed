@@ -1,4 +1,4 @@
-# Azure App Serivce Security Pack - Medium Strength
+# Azure App Service Security Pack - Medium Strength
 
 The purpose of this extension is to create a one-stop shop for common basic security concerns when using Azure Web Apps. 
 
@@ -39,7 +39,7 @@ Install like any other Azure site extension by using the Azure portal (app servi
 
 ## Testing
 
-After installing and restarting your site, you can test by inspecting the redirect, keepalive, and headers. To simplify the test process, tools such as [securityheaders.io](https://securityheaders.io/) can be used. As of this writing (August 2017) the changes made by this transform result in a security "grade" of "A" as reported on the aformentioned site. **Please note** that some sites **will** experience problems after installing this extension. Depending on your security needs it may be worth your time to update the secuirty practices of your site, but if not simply delete this extension if issues are encountered. 
+After installing and restarting your site, you can test by inspecting the redirect, keepalive, and headers. To simplify the test process, tools such as [securityheaders.io](https://securityheaders.io/) can be used. As of this writing (August 2017) the changes made by this transform result in a security "grade" of "A" as reported on the aforementioned site. **Please note** that some sites **will** experience problems after installing this extension. Depending on your security needs it may be worth your time to update the security practices of your site, but if not simply delete this extension if issues are encountered. 
 
 ## Feedback 
 
