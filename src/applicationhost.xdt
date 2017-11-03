@@ -15,7 +15,7 @@
             </httpProtocol>
             <rewrite xdt:Transform="InsertIfMissing">
                 <rules xdt:Transform="InsertIfMissing" lockElements="clear">
-                    <rule name="redirect HTTP to HTTPS" enabled="true" stopProcessing="true" lockItem="true">
+                    <rule name="redirect HTTP to HTTPS" enabled="true" stopProcessing="true" lockItem="true" xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)">
                         <match url="(.*)" />
                         <conditions>
                             <add input="{HTTPS}" pattern="off" ignoreCase="true" />
