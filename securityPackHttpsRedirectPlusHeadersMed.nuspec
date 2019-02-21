@@ -3,7 +3,7 @@
   <metadata>
     <id>SecurityPackHttpsRedirectPlusHeadersMed</id>
     <title>Security Settings: HTTPS Redirect w/KeepAlive Support, Headers incl HSTS, CSP, and More. "Medium strength".</title>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
     <authors>Toby Meyer</authors>
     <license type="expression">Apache-2.0</license>   
     <projectUrl>https://github.com/toby-meyer/AzSecurityPackRedirectAndHeadersMed</projectUrl>

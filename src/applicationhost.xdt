@@ -34,9 +34,5 @@
                 <requestFiltering removeServerHeader="true" xdt:Transform="SetAttributes(removeServerHeader)" />
             </security>
         </system.webServer>
-		<system.web xdt:Transform="InsertIfMissing">
-            <httpRuntime enableVersionHeader="false" xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)" />
-            <httpCookies httpOnlyCookies="true" requireSSL="true" />
-        </system.web>
     </location>
 </configuration>
