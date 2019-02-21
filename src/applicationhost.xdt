@@ -10,6 +10,7 @@
                     <add name="Content-Security-Policy" value="default-src 'self' data: https:; script-src 'self' *.msecnd.net;" />
                     <add name="Strict-Transport-Security" value="max-age=31536000; includeSubDomains; preload" />
                     <add name="X-Frame-Options" value="SAMEORIGIN" />
+					<add name="Feature-Policy" value="unsized-media: 'none'" />
                     <remove name="X-Powered-By" xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)" />
                     <remove name="X-AspNetMvc-Version" xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)" />
                     <remove name="X-AspNet-Version" xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)" />
