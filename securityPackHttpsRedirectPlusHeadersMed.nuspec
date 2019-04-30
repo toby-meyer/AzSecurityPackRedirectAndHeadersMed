@@ -3,13 +3,16 @@
   <metadata>
     <id>SecurityPackHttpsRedirectPlusHeadersMed</id>
     <title>Security Settings: HTTPS Redirect w/KeepAlive Support, Headers incl HSTS, CSP, and More. "Medium strength".</title>
-    <version>1.0.4</version>
-    <authors>Toby Meyer</authors>
-    <licenseUrl>https://raw.githubusercontent.com/toby-meyer/AzSecurityPackRedirectAndHeadersMed/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/toby-meyer/AzSecurityPackRedirectAndHeadersMed</projectUrl>
+    <version>1.1.8</version>
+    <authors>Toby Meyer;Raymond de Jong</authors>
+    <license type="expression">Apache-2.0</license>   
+    <projectUrl>https://github.com/rfcdejong/AzSecurityPackRedirectAndHeadersMed</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Adds/removes conservative set of security minded HTTP headers and redirects HTTP requests to HTTPS while maintaining keep alive functionality. Now supports Application Insights. For full details see readme.md on project site.</description>
-    <tags>http https redirect csp headers hsts azure strict-transport-security x-frame-options x-xss-protection x-content-type-options referrer-policy content-security-policy x-powered-by keepalive security</tags>
+    <tags>AzureSiteExtension http https redirect csp headers hsts azure strict-transport-security x-frame-options x-xss-protection x-content-type-options referrer-policy content-security-policy x-powered-by keepalive security</tags>
+    <packageTypes>
+      <packageType name="AzureSiteExtension" />
+    </packageTypes>
   </metadata>
   <files>
     <file src=".\src\*.*" target="content" />
